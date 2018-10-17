@@ -1,0 +1,45 @@
+.container {
+    margin-top: 30px;
+  }
+  
+  .btn-toolbar{
+    text-align: center !important;
+    display: Block !important;
+  }
+  
+  
+  .button {
+    height: 20px;
+    width: 100px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #button {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 100px;
+    width: 507px;
+    left: 40%;
+    top: 35%;
+    margin-top: -15px;   /* = -height / 2   */
+    margin-left: -100px; /* = -width / 2    */
+    position: fixed;     /* Fixed is better */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  body {background-color: coral;}
