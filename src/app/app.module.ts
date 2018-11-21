@@ -10,8 +10,9 @@ import { CodingComponent } from './coding/coding.component';
 import { PublishedComponent } from './published/published.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { routing } from './app-routing.module';
+import { ReturnsJsonArrayService } from './returns-json-array.service';
 
-
+import {filterPipe} from './filterPipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,7 @@ import { routing } from './app-routing.module';
     CodingComponent,
     PublishedComponent,
     NotFoundComponent,
-    
+    filterPipe,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +29,7 @@ import { routing } from './app-routing.module';
     HttpModule,
     routing,
   ],
-  
+  providers: [ReturnsJsonArrayService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

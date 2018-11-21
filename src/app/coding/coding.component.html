@@ -1,8 +1,35 @@
 
 
-
-<body >
-
-    <button   [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button >
-
-      </body>
+      <!--button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button-->
+      <button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button >
+        <button [routerLink]="['/experience']" id="buttonexperience" >Experience</button >
+             <button [routerLink]="['/projects']" id="buttonpublishedprojects" >Published Projects</button >
+          <div style="padding-top: 90px;"></div>
+          
+  <div class='list' *ngFor="let d of coding | async  ">
+      <table >
+          <tr>
+              
+            <p><b>Title: {{ d.name }} </b></p>
+          </tr>
+              <tr> 
+                <p><i>Link to code
+                <a href={{d.html_url}}>
+                  <img  alt="github" src="../../assets/images/GitHub_New.png" width="25" height="25">
+                  </a>
+                </i></p>
+              </tr>
+              <tr>
+                <p><b>Description: </b></p>
+              </tr>
+              <tr>
+                <p><i>{{ d.description }}</i></p>
+              </tr>
+              <!--tr>
+                    <h3>Website:  <a href= {{d.homepage}} target="_blank">Published App link</a></h3>
+                    
+              </tr-->
+             
+          
+      </table> 
+  </div>

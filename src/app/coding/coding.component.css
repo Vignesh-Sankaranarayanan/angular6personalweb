@@ -9,12 +9,12 @@
   
   
   .button {
-    height: 20px;
-    width: 100px;
+    height: 50px;
+    width: 500px;
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 2px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -25,10 +25,10 @@
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    height: 100px;
-    width: 507px;
-    left: 70%;
-    top: 15%;
+    height: 50px;
+    width: 207px;
+    left: 10%;
+    top: 5%;
     margin-top: -15px;   /* = -height / 2   */
     margin-left: -100px; /* = -width / 2    */
     position: fixed;     /* Fixed is better */
@@ -43,3 +43,62 @@
     cursor: pointer;
   }
 
+  #buttonpublishedprojects {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 50px;
+    width: 207px;
+    left: 90%;
+    top: 5%;
+    margin-top: -15px;   /* = -height / 2   */
+    margin-left: -100px; /* = -width / 2    */
+    position: fixed;     /* Fixed is better */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #buttonexperience {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 50px;
+    width: 207px;
+    left: 70%;
+    top: 5%;
+    margin-top: -15px;   /* = -height / 2   */
+    margin-left: -100px; /* = -width / 2    */
+    position: fixed;     /* Fixed is better */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+.list{
+  border-style: outset;width:800px; margin:0 auto;background-color: wheat; 
+  padding: 10px;
+    
+}
+.listodd{
+  border-style: outset;width:800px; margin:0 auto;background-color: whitesmoke; 
+  padding: 70px;
+    border: 1px solid #4CAF50;
+}
+
+    .even { color: red; }
+    .odd { color: green; }
+ 

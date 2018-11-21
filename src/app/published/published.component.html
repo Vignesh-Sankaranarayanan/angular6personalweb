@@ -1,2 +1,26 @@
 
   <button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button >
+    <button [routerLink]="['/experience']" id="buttonexperience" >Experience</button >
+         <button [routerLink]="['/coding']" id="buttoncoding" >Coding</button >
+      <div style="padding-top: 90px;"></div>
+<div class='list'  *ngFor="let d of projects |async ">
+  <table >
+      <tr>
+          
+        <p><b>Published Project: {{ d.name }} </b></p>
+      </tr>
+          <tr>
+                <h3>Website: <a href= {{d.homepage}} target="_blank">Published App link</a></h3>
+                
+          </tr>
+          <tr>
+            <p><b>Description: </b></p>
+          </tr>
+          <tr>
+            <p><i>{{ d.description }}</i></p>
+          </tr>
+          
+         
+      
+  </table> 
+</div>

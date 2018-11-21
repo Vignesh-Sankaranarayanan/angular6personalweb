@@ -1,4 +1,33 @@
 
 
+      <!--button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button-->
       <button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button >
-
+            <button [routerLink]="['/coding']" id="buttoncoding" >Coding</button >
+                 <button [routerLink]="['/projects']" id="buttonpublishedprojects" >Published Projects</button >
+              <div style="padding-top: 90px;"></div>
+      <div class='list' *ngFor="let d of data | async">
+          <table >
+              <tr>
+                  
+                <p><b>Title: {{ d.title }} </b></p>
+              </tr>
+                  <tr> 
+                    <p><i>Company: {{ d.company }}</i></p>
+                  </tr>
+                  <tr>
+                    <p><i>Dates: {{ d.dates }}</i></p>
+                  </tr>
+                  <tr>
+                    <p><b>Description: </b></p>
+                  </tr>
+                  <tr>
+                    <p><i>{{ d.description }}</i></p>
+                  </tr>
+                  <tr>
+                        <h3>Website: {{ d.website }}</h3>
+                    </tr>
+                 
+              
+          </table> 
+      </div>
+      © 2018 GitHub, Inc.

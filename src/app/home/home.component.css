@@ -104,3 +104,24 @@
     font-size: 16px;
     cursor: pointer;
   }
+ html, body {
+  background-color:green;
+  height: 100%;  
+  font-family: "Quicksand";
+  font-size: 100%;
+  
+}
+
+
+.bg { 
+  /* The image used */
+  
+  
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
