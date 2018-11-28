@@ -15,10 +15,14 @@ import { from } from 'rxjs/observable/from';
 
 
 export class CodingComponent implements OnInit {
-  projects: Observable<Array<any>>;
+  coding: Observable<Array<any>>;
+  
   constructor(private service: ReturnsJsonArrayService) {
-    this.projects = service.getCoding();
-    console.log("AppComponent.projects:" + this.projects);
+    this.coding = service.getCoding();
+    
+  
+    
+    console.log("AppComponent.coding:" + this.coding);
   }
 
 
