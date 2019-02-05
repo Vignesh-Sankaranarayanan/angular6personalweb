@@ -1,13 +1,17 @@
-
+<!DOCTYPE html>
+<html>
+<body>
   <button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button >
     <button [routerLink]="['/experience']" id="buttonexperience" >Experience</button >
          <button [routerLink]="['/coding']" id="buttoncoding" >Coding</button >
       <div style="padding-top: 90px;"></div>
-<div class='list'  *ngFor="let d of projects |async ">
+      <ng-container *ngFor="let d of projects |async">
+<div class='list'  *ngIf="d.homepage">
+   
   <table >
       <tr>
           
-        <p><b>Published Project: {{ d.name }} </b></p>
+        <p id="publish"><b>Published Project: {{ d.name }} </b></p>
       </tr>
           <tr>
                 <h3>Website: <a href= {{d.homepage}} target="_blank">Published App link</a></h3>
@@ -19,8 +23,11 @@
           <tr>
             <p><i>{{ d.description }}</i></p>
           </tr>
-          
          
-      
   </table> 
+ 
+  
 </div>
+      </ng-container>
+  </body>
+  </html>

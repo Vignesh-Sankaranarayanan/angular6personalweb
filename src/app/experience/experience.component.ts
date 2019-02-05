@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
 var json = require('../../assets/data/data.json');
 import { Observable } from 'rxjs';
 import { ReturnsJsonArrayService } from '../returns-json-array.service';
+import { Http, Response } from '@angular/http';
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
@@ -13,6 +14,7 @@ import { ReturnsJsonArrayService } from '../returns-json-array.service';
 
 export class ExperienceComponent implements OnInit {
   data: Observable<Array<any>>;
+  http : Http;
   constructor(private service: ReturnsJsonArrayService) {
     this.data = service.getPeople();
     console.log("AppComponent.data:" + this.data);

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ReturnsJsonArrayService } from '../returns-json-array.service';
 import { from } from 'rxjs/observable/from';
-
+import { Http, Response } from '@angular/http';
 
 
 @Component({
@@ -16,7 +16,7 @@ import { from } from 'rxjs/observable/from';
 
 export class CodingComponent implements OnInit {
   coding: Observable<Array<any>>;
-  
+  http :Http;
   constructor(private service: ReturnsJsonArrayService) {
     this.coding = service.getCoding();
     

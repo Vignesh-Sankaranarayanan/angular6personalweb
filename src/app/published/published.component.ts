@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ReturnsJsonArrayService } from '../returns-json-array.service';
-
+import { Http, Response } from '@angular/http';
 @Component({
   selector: 'app-published',
   templateUrl: './published.component.html',
@@ -9,7 +9,8 @@ import { ReturnsJsonArrayService } from '../returns-json-array.service';
   providers: [ReturnsJsonArrayService]
 })
 export class PublishedComponent implements OnInit {
-  projects: Observable<Array<any>>;
+  private projects: Observable<any>;
+  private http: Http;
   constructor(private service: ReturnsJsonArrayService) {
     this.projects = service.getCoding();
     console.log("AppComponent.projects:" + this.projects);

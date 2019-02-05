@@ -25,12 +25,14 @@
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    height: 100px;
-    width: 507px;
-    left: 40%;
+    height: 10%;
+    width: 51%;
+    left: 30%;
     top: 35%;
-    margin-top: -15px;   /* = -height / 2   */
-    margin-left: -100px; /* = -width / 2    */
+    right:19%;
+    margin-top: 4%;   /* = -height / 2   */
+    margin-left: -7.8%; /* = -width / 2    */
+    margin-right:80%;
     position: fixed;     /* Fixed is better */
     background-color: #4CAF50;
     border: none;
@@ -43,15 +45,17 @@
     cursor: pointer;
   }
   #buttoncoding {
+    resize: both;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    height: 40px;
-    width: 150px;
-    left: 40%;
+    height: 10%;
+    width: 16%;
+    left: 30%;
     top: 55%;
-    margin-top: -15px;   /* = -height / 2   */
-    margin-left: -100px; /* = -width / 2    */
+    margin-top: -15%;  
+    margin-left: -7.8%; /* = -width / 2    */
+    margin-right:80%;
     position: fixed;     /* Fixed is better */
     background-color: #4CAF50;
     border: none;
@@ -64,15 +68,17 @@
     cursor: pointer;
   }
   #buttonexperience {
+    resize: both;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    height: 40px;
-    width: 150px;
-    left: 52%;
+    height: 10%;
+    width: 16%;
+    left: 47%;
     top: 55%;
-    margin-top: -15px;   /* = -height / 2   */
-    margin-left: -100px; /* = -width / 2    */
+    margin-top: -15%;  
+    margin-left: -7.8%; /* = -width / 2    */
+    margin-right:80%;
     position: fixed;     /* Fixed is better */
     background-color: #4CAF50;
     border: none;
@@ -85,15 +91,17 @@
     cursor: pointer;
   }
   #buttonpublishedprojects{
+    resize: both;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    height: 40px;
-    width: 200px;
-    left: 64%;
+    height: 10%;
+    width: 16%;
+    left: 65%;
     top: 55%;
-    margin-top: -15px;   /* = -height / 2   */
-    margin-left: -100px; /* = -width / 2    */
+    margin-top: -15%;   /* = -height / 2   */
+    margin-left: -7.8%; /* = -width / 2    */
+    margin-right:80%;
     position: fixed;     /* Fixed is better */
     background-color: #4CAF50;
     border: none;

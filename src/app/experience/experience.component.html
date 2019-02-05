@@ -1,11 +1,12 @@
 
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <!--button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button-->
       <button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button >
             <button [routerLink]="['/coding']" id="buttoncoding" >Coding</button >
                  <button [routerLink]="['/projects']" id="buttonpublishedprojects" >Published Projects</button >
-              <div style="padding-top: 90px;"></div>
-      <div class='list' *ngFor="let d of data | async">
+                  <div class="w3-row-padding">
+                   
+      <div class="w3-third" class='list' *ngFor="let d of data | async">
           <table >
               <tr>
                   
@@ -29,5 +30,6 @@
                  
               
           </table> 
+      </div>
       </div>
       © 2018 GitHub, Inc.

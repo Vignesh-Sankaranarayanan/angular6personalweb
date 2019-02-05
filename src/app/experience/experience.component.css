@@ -8,13 +8,13 @@
   }
 
   .list{
-    border-style: outset;width:800px; margin:0 auto;background-color: lightsalmon; 
-    padding: 10px;
+    height:50%;border-style: outset;width:80%; margin:0 auto;background-color: cornflowerblue; 
+  padding: 1%;
       
   }
   .listodd{
-    border-style: outset;width:800px; margin:0 auto;background-color: whitesmoke; 
-    padding: 70px;
+    border-style: outset;width:80%; margin:0 auto;background-color: whitesmoke; 
+    padding: 1%;
       border: 1px solid #4CAF50;
   }
   
@@ -25,8 +25,8 @@
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    height: 50px;
-    width: 207px;
+    height: 8%;
+    width: 20%;
     left: 10%;
     top: 5%;
     margin-top: -15px;   /* = -height / 2   */
@@ -47,9 +47,9 @@
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    height: 50px;
-    width: 207px;
-    left: 90%;
+    height: 8%;
+    width: 18%;
+    left: 89%;
     top: 5%;
     margin-top: -15px;   /* = -height / 2   */
     margin-left: -100px; /* = -width / 2    */
@@ -69,9 +69,9 @@
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    height: 50px;
-    width: 207px;
-    left: 70%;
+    height: 8%;
+    width: 18%;
+    left: 68%;
     top: 5%;
     margin-top: -15px;   /* = -height / 2   */
     margin-left: -100px; /* = -width / 2    */
