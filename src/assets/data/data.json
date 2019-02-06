@@ -1,23 +1,23 @@
 [
     {
       "title":"QA Software Development Engineer II",
-      "company":"CSG",
+      "company":"CSG ,Chicago ,IL",
       "dates":"March 2018 – Present", 
-      "description":"Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.",
+      "description":"Working on UI and API Automation using C#,Specflow,Protractor. I also do small development feature work.Worked on React based web automation using cypress.JMETER is used for performance test.",
       "website":"https://www.csgi.com/"
     },
     {
       "title":"Senior QA Automation Engineer",
-      "company":"Morningstar",
+      "company":"Morningstar, Chicago,IL",
       "dates":"Nov 2014 – Feb 2018",
-      "description":"Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.",
+      "description":"Developed Automation framework from the scratch using Java and Selenium.Developed small utility tools using JSP and C#",
       "website":"https://www.morningstar.com/"
     },
     {
       "title":"Test Analyst",
-      "company":"Infosys",
+      "company":"Infosys, India and Chicago,IL",
       "dates":"Sep 2009 – Oct 2014",
-      "description":"Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.Removing and installing operating systems. Data management. Virtual machines' configuration. Basic network maintenance and hardware troubleshooting. Bash and Python scripting for automatizing customer-service-related processes.",
+      "description":"Worked on a wide range of application from front end ,API ,databases. Developed Automation using VB scripting,C#,Selenium.Worked on unix/shell scrpting",
       "website":"https://www.infosys.com/"
     }
   ]

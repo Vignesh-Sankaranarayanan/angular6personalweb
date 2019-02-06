@@ -1,12 +1,14 @@
-
-<html><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<!DOCTYPE html>
+<html>
+<body><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
       <!--button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button-->
       <button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button >
         <button [routerLink]="['/experience']" id="buttonexperience" >Experience</button >
              <button [routerLink]="['/projects']" id="buttonpublishedprojects" >Published Projects</button >
           <div style="padding-top: 90px;"></div>
-          
-  <div class='list' *ngFor="let d of coding   |async">
+          <ng-container *ngFor="let d of coding |async">
+            
+  <div class='list' >
       <table >
           <tr>
               
@@ -22,14 +24,8 @@
               
               <tr ng-if=false>
                
-              <p><b>Published Project: {{ d.name }} </b></p>
-              </tr>
-                  <tr>
-                        <h3>Website: <a href= {{d.homepage}} target="_blank">Published App link</a></h3>
-                        
-                  </tr>
-                 
-              <tr>
+              <p><b> Project: {{ d.name }} </b></p>
+            
                 <p><b>Description: </b></p>
               </tr>
               <tr>
@@ -43,4 +39,6 @@
           
       </table> 
   </div>
-  </html>
+  </ng-container>
+</body>
+</html>
