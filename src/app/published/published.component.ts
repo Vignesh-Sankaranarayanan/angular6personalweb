@@ -9,7 +9,7 @@ import { Http, Response } from '@angular/http';
   providers: [ReturnsJsonArrayService]
 })
 export class PublishedComponent implements OnInit {
-  private projects: Observable<any>;
+  public projects: Observable<any>;
   private http: Http;
   constructor(private service: ReturnsJsonArrayService) {
     this.projects = service.getCoding();
