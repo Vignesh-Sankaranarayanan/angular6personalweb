@@ -1,26 +1,22 @@
 .container {
-    margin-top: 30px;
-  }
-  
-  .btn-toolbar{
-    text-align: center !important;
-    display: Block !important;
-  }
+  margin-top: 30px;
+}
 
-  .list{
-    height:50%;border-style: outset;width:80%; margin:0 auto;background-color: cornflowerblue; 
+.btn-toolbar{
+  text-align: center !important;
+  display: Block !important;
+}
+
+.list{
+  border-style: outset;width:60%; margin:0 auto;background-color: burlywood; 
   padding: 1%;
-      
-  }
-  .listodd{
-    border-style: outset;width:80%; margin:0 auto;background-color: whitesmoke; 
-    padding: 1%;
-      border: 1px solid #4CAF50;
-  }
-  
-      .even { color: red; }
-      .odd { color: green; }
-   
+    
+}
+.listodd{
+  border-style: outset;width:60%; margin:0 auto;background-color: whitesmoke; 
+  padding: 1%;
+    border: 1px solid #4CAF50;
+}
   #button {
     appearance: none;
     -moz-appearance: none;
