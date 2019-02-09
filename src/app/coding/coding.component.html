@@ -1,44 +1,76 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Vignesh Sankaranarayanan</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+      </head>
+   
 <body><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
       <!--button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button-->
-      <button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button >
-        <button [routerLink]="['/experience']" id="buttonexperience" >Experience</button >
-             <button [routerLink]="['/projects']" id="buttonpublishedprojects" >Published Projects</button >
-          <div style="padding-top: 90px;"></div>
+     
+              
+                        
+              
+      <div class="container">
+        <div class="row">
+                          <div class="col three">
+                            <a href="#" class="btn btn-facebook" [routerLink]="['/']">  Vignesh Sankaranarayanan</a>	
+                          </div>
+                      <div class="col one">
+                          <a href="#"  class="btn btn-dark-blue" [routerLink]="['/experience']">Experience</a>		
+                      </div>
+                     
+                      <div class="col one">
+                          <a href="#" class="btn btn-rouge " [routerLink]="['/projects']">Published Project</a>			
+                  </div>
+                </div>    
+             
+             
+              <div class="col">
+                
           <ng-container *ngFor="let d of coding |async">
-            
-  <div class='list' >
-      <table >
-          <tr>
+            <ul class="press">
+              <li>        
+  <div  >
+     
               
             <p><b>Title: {{ d.name }} </b></p>
-          </tr>
-              <tr> 
+  </div>
+  <div  >
                 <p><i>Link to code
                 <a href={{d.html_url}}>
-                  <img  alt="github" src="../../assets/images/GitHub_New.png" width="25" height="25">
+                  <img  alt="github" src="assets/images/fluidicon.png" width="25" height="25">
                   </a>
                 </i></p>
-              </tr>
+  </div>
               
-              <tr ng-if=false>
+              <div ng-if=false>
                
               <p><b> Project: {{ d.name }} </b></p>
             
                 <p><b>Description: </b></p>
-              </tr>
-              <tr>
+              </div>
+              <div>
                 <p><i>{{ d.description }}</i></p>
-              </tr>
+              </div>
               <!--tr>
                     <h3>Website:  <a href= {{d.homepage}} target="_blank">Published App link</a></h3>
                     
               </tr-->
              
           
-      </table> 
-  </div>
+     
+  
+</li>
+            </ul>
   </ng-container>
+     
+</div>
+  </div>
+ 
 </body>
+
 </html>
+

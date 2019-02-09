@@ -1,36 +1,64 @@
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Vignesh Sankaranarayanan</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+      </head>
+   
+<body><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
       <!--button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button-->
-      <button [routerLink]="['/']" id="button" >Vignesh Sankaranarayanan</button >
-            <button [routerLink]="['/coding']" id="buttoncoding" >Coding</button >
-                 <button [routerLink]="['/projects']" id="buttonpublishedprojects" >Published Projects</button >
-                  <div class="w3-row-padding">
-                      <div style="padding-top: 90px;"></div>
-                   
-      <div class="w3-third" class='list' *ngFor="let d of data | async">
-          <table >
-              <tr>
-                  
+     
+              
+                        
+              
+      <div class="container">
+        <div class="row">
+                          <div class="col three">
+                            <a href="#" class="btn btn-facebook" [routerLink]="['/']">  Vignesh Sankaranarayanan</a>	
+                          </div>
+                      <div class="col one">
+                          <a href="#"  class="btn btn-sunflower"  [routerLink]="['/coding']">Coding</a>		
+                      </div>
+                     
+                      <div class="col one">
+                          <a href="#" class="btn btn-rouge " [routerLink]="['/projects']">Published Project</a>			
+                  </div>
+                </div>    
+             
+             
+              <div class="col"> 
+                     
+    <ng-container *ngFor="let d of data |async">
+      <ul class="press">
+        <li>   
+          <div  >    
                 <p><b>Title: {{ d.title }} </b></p>
-              </tr>
-                  <tr> 
+          </div>
+                  <div> 
                     <p><i>Company: {{ d.company }}</i></p>
-                  </tr>
-                  <tr>
+                  </div>
+                  <div>
                     <p><i>Dates: {{ d.dates }}</i></p>
-                  </tr>
-                  <tr>
+                  </div>
+                  <div>
                     <p><b>Description: </b></p>
-                  </tr>
-                  <tr>
+                  </div>
+                  <div>
                     <p><i>{{ d.description }}</i></p>
-                  </tr>
-                  <tr>
+                  </div>
+                  <div>
                         <h3>Website: {{ d.website }}</h3>
-                    </tr>
+                    </div>
                  
               
-          </table> 
-      </div>
-      </div>
-      © 2018 GitHub, Inc.
+      
+</li>
+</ul>
+    </ng-container>
+    </div>
+    </div>
+   
+  </body>
+  </html>
+     
