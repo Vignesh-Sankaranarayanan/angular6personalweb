@@ -13,6 +13,7 @@ import { routing } from './app-routing.module';
 import { ReturnsJsonArrayService } from './returns-json-array.service';
 
 import {filterPipe} from './filterPipe';
+import { UiModule } from './ui/ui.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,14 +23,17 @@ import {filterPipe} from './filterPipe';
     PublishedComponent,
     NotFoundComponent,
     filterPipe,
+    
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     routing,
+    UiModule
   ],
   providers: [ReturnsJsonArrayService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  
 })
 export class AppModule { }
