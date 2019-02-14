@@ -14,6 +14,19 @@ import { ReturnsJsonArrayService } from './returns-json-array.service';
 
 import {filterPipe} from './filterPipe';
 import { UiModule } from './ui/ui.module';
+import { RouterModule, Routes } from '@angular/router';
+
+// routes are configured in this object
+const appRoutes: Routes = [
+  {path: 'home', component: HomeComponent},
+  {path: 'coding', component: CodingComponent},
+  {path: 'experience', component: ExperienceComponent},
+  {path: 'projects', component: PublishedComponent},
+
+  
+  {path: '', redirectTo: '/', pathMatch: 'full'},
+  {path: '**', redirectTo: '/', pathMatch: 'full'},
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +43,8 @@ import { UiModule } from './ui/ui.module';
     FormsModule,
     HttpModule,
     routing,
-    UiModule
+    UiModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [ReturnsJsonArrayService],
   bootstrap: [AppComponent],

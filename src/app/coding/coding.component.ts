@@ -17,6 +17,7 @@ import { Http, Response } from '@angular/http';
 export class CodingComponent implements OnInit {
   coding: Observable<Array<any>>;
   http :Http;
+  
   constructor(private service: ReturnsJsonArrayService) {
     this.coding = service.getCoding();
     
