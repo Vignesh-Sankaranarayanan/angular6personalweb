@@ -20,10 +20,10 @@ import {
 
 
 const routes: Routes = [
-  { path: 'angular6personalweb/home', component: HomeComponent },
-  { path: 'angular6personalweb/coding', component: CodingComponent },
-  { path: 'angular6personalweb/experience', component: ExperienceComponent },
-  { path: 'angular6personalweb/projects', component: PublishedComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'coding', component: CodingComponent },
+  { path: 'experience', component: ExperienceComponent },
+  { path: 'projects', component: PublishedComponent },
   {path : '**', component : HomeComponent},
   {path : '', component : HomeComponent}
 ];
