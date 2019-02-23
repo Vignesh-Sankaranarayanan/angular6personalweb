@@ -125,5 +125,7 @@ Icon styles
 .icon-only i{padding-right:0; font-size:22px; line-height:22px; }
 	
 
-
+img {
+  border-radius: 50%;
+}
 		
