@@ -1,16 +1,16 @@
 [
     {
-      "title":"QA Software Development Engineer II",
+      "title":"Software Development Engineer II",
       "company":"CSG ,Chicago ,IL",
       "dates":"March 2018 – Present", 
-      "description":"Working on UI and API Automation using C#,Specflow,Protractor. I also do small development feature work.Worked on React based web automation using cypress.JMETER is used for performance test.",
+      "description":"Working on a billing solutions platform. New feature development and customization based on specfic clients is performed.",
       "website":"https://www.csgi.com/"
     },
     {
-      "title":"Senior QA Automation Engineer",
+      "title":"Software Development Engineer",
       "company":"Morningstar, Chicago,IL",
       "dates":"Nov 2014 – Feb 2018",
-      "description":"Developed Automation framework from the scratch using Java and Selenium.Developed small utility tools using JSP and C#",
+      "description":"Worked on a data analytics application that predicts the fund advice based on user details",
       "website":"https://www.morningstar.com/"
     },
     {
